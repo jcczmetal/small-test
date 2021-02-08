@@ -14,7 +14,7 @@ export default class VehicleList extends Component {
 
     componentDidMount() {
         axios
-            .get('http://localhost:5000/vehicles')
+            .get('http://161.35.0.166/vehicles')
             .then(response => {
                 this.setState({ vehicles: response.data })
             })

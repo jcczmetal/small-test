@@ -17,7 +17,7 @@ export default class Vehicle extends Component {
     setToMaintenance() {
 
         axios
-            .put('http://localhost:5000/vehicles', {
+            .put('http://161.35.0.166/vehicles', {
                 _id: this.props.vehicle._id,
                 id: 3344,
                 estimatedate: "2020-01-12",
